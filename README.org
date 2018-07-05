@@ -25,4 +25,4 @@ go, git
 
 ** License
 
-MIT
+[[./LICENSE][MIT]]
