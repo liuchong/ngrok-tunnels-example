@@ -1,0 +1,28 @@
+* NGROK TUNNELS EXAMPLE
+
+** Description
+
+Connect multiple site which, without a public domain/ip and behind a proxy, to public.
+Use ngrok.
+
+** Usage
+
+*** Dependencies
+
+go, git
+
+*** Steps
+
+1. Build with script build.sh.
+
+```
+./build.sh docker-all
+```
+
+2. If need proxy, modify src/scripts/start-client.sh, to set a proxy server.
+
+3. Deploy package on server and clients.
+
+** License
+
+MIT
